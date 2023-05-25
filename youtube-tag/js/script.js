@@ -20,34 +20,34 @@ const content_type_items = [
 
 // 入力項目群
 const input_keyword_items = [
-    { name: "keyword1", label: "本部・部隊1", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword2", label: "本部・部隊2", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword3", label: "本部・部隊3", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword4", label: "本部・部隊4", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword5", label: "本部・部隊5", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword6", label: "本部・部隊1（英）", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword7", label: "本部・部隊2（英）", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword8", label: "本部・部隊3（英）", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword9", label: "本部・部隊4（英）", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword10", label: "本部・部隊5（英）", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
+    { name: "keyword1", label: "本部・部隊1", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword2", label: "本部・部隊2", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword3", label: "本部・部隊3", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword4", label: "本部・部隊4", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword5", label: "本部・部隊5", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword6", label: "本部・部隊1（英）", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword7", label: "本部・部隊2（英）", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword8", label: "本部・部隊3（英）", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword9", label: "本部・部隊4（英）", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword10", label: "本部・部隊5（英）", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
     { name: "keyword11", label: "レジ番", type: [HELICOPTER_RESCUE] },
-    { name: "keyword12", label: "イベント", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword13", label: "演目", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword14", label: "乗り物1", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword15", label: "乗り物2", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword16", label: "乗り物3", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword17", label: "乗り物4", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword18", label: "乗り物5", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword19", label: "乗り物6", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword20", label: "乗り物7", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword21", label: "乗り物8", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword22", label: "乗り物9", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword23", label: "乗り物10", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword24", label: "フリーワード1", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword25", label: "フリーワード2", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword26", label: "フリーワード3", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword27", label: "フリーワード4", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
-    { name: "keyword28", label: "フリーワード5", type: [EMERGENCY_RUN,HELICOPTER_RESCUE,OPEN_BASE,AIR_SHOW] },
+    { name: "keyword12", label: "イベント", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword13", label: "演目", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword14", label: "乗り物1", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword15", label: "乗り物2", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword16", label: "乗り物3", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword17", label: "乗り物4", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword18", label: "乗り物5", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword19", label: "乗り物6", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword20", label: "乗り物7", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword21", label: "乗り物8", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword22", label: "乗り物9", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword23", label: "乗り物10", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword24", label: "フリーワード1", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword25", label: "フリーワード2", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword26", label: "フリーワード3", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword27", label: "フリーワード4", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
+    { name: "keyword28", label: "フリーワード5", type: [EMERGENCY_RUN, HELICOPTER_RESCUE, OPEN_BASE, AIR_SHOW] },
 ];
 
 
@@ -76,12 +76,12 @@ createApp({
         let that = this;
     },
     methods: {
-        onChangeContentType () {
+        onChangeContentType() {
             let that = this;
             let inputs = that.inputs;
             inputs = inputs.map(elm => {
                 return elm = ""
-              });
+            });
             that.inputs = inputs;
             that.tag = null;
         },
@@ -90,6 +90,7 @@ createApp({
             let content_type_value = that.content_type_value
             let keywords = that.inputs;
             that.tag = generateTag(content_type_value, keywords);
+            navigator.clipboard.writeText(that.tag);
         },
     }
 }).mount('#app');
@@ -116,8 +117,14 @@ function generateTag(content_type, keywords) {
             break;
         case HELICOPTER_RESCUE:
             var fixed_keywords = [
+                "航空救助",
+                'Air rescue',
                 "防災訓練",
                 "Emergency training",
+                "救助ヘリコプター",
+                "Rescue helicopter",
+                "ホイスト",
+                "hoist",
             ];
             break;
         case OPEN_BASE:
@@ -145,7 +152,7 @@ function generateTag(content_type, keywords) {
         result += keywords[i] + ",";
     }
 
-    if(result.slice(-1) === ','){
+    if (result.slice(-1) === ',') {
         result = result.slice(0, -1);
     }
 

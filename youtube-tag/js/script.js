@@ -129,14 +129,24 @@ function generateTag(content_type, keywords) {
             break;
         case OPEN_BASE:
             var fixed_keywords = [
-                "",
-                "",
+                "自衛隊",
+                "Japan Self-Defense Forces",
+                "JSDF",
+                "駐屯地創立記念行事",
+                "Open Base Event",
+                "ミリタリー",
+                "Military"
             ];
             break;
         case AIR_SHOW:
             var fixed_keywords = [
-                "",
-                "",
+                "自衛隊",
+                "Japan Self-Defense Forces",
+                "JSDF",
+                "航空祭",
+                "Air Show",
+                "ミリタリー",
+                "Military"
             ];
             break;
     }
